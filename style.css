@@ -1,0 +1,280 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    width: 100%;
+    height: 69px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+.logo img{
+    width: auto; 
+    height: 50px;
+    padding: 0 10px;
+    cursor: pointer; 
+    background-repeat: no-repeat;
+}
+
+nav{
+  margin-left:auto;
+} 
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+  }
+
+ 
+  
+nav li {
+    margin-right: 20px;
+  }
+  
+nav a {
+    text-decoration: underline;
+    color: #fff;
+    font-weight:normal;
+  }
+  
+nav a:hover {
+    text-decoration: none;
+    
+  }
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.image{
+  max-width: 1200px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.content{
+  width: 100%;
+  height: 15%;
+  top: 50%;
+  left: 0;
+  position: absolute;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content h2{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.Featured{
+  max-width: 1000px;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;  
+  flex-direction: column;
+  margin: auto;
+  padding: 20px 0px;
+  position: relative;
+  top: 70px;
+}
+
+.Featured-title{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+
+}
+
+.Featured-title h2{
+  font-size: 36px;
+  padding: 10px;
+  
+}
+
+.Featured-title p{
+  font-size: 24px;
+  padding: 10px;
+
+}
+
+.cards1{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+.cards2{
+  text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.cards1 .card{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+}
+
+.cards2 .card{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: column;
+  padding: 10px 50px ;
+}
+
+
+.card img{
+   width: 300px;
+   height: 200px;
+   margin: 0px;
+   padding: 0px;
+}
+
+.card-content{
+  padding: 10px;
+  
+}
+
+.card-content h2{
+  font-size: 22px;
+  text-align: center;
+}
+
+.locstion{
+    max-width: 1200px;
+    height: 500px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    margin: 100px auto 10px auto;
+    padding: 0px;
+    
+}
+
+.locstion h2{
+  color: seashell;
+  background-color:transparent;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  padding: 70px 0px 0px 0px ;
+  margin: 0px;
+}
+
+.boxes{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+  background-color: transparent;
+  padding: 15px 0px 30px 0px;
+}
+
+.box {
+ background-color: black;   
+ width: 300px;
+ height: auto;
+ opacity: 1;
+ line-height: 70px;
+}
+
+.box2 {
+ background-color: black;   
+ width: 300px;
+ height: auto;
+ margin: 0px 40px 0px 40px;
+ opacity: 1;
+ line-height: 70px;
+}
+
+.box2 h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box h5{
+  font-weight: normal;
+}
+
+.box2 h5{
+  font-weight: normal;
+}
+
+.end {
+  width: auto;
+  height: 200px;
+  text-align: center;
+  margin: 0px auto 20px auto;
+}
+
+.end h2{
+  font-size: 50px;
+}
+
+.contact{
+  padding: 40px 0px 20px 0px;
+  line-height: 50px;
+}
+
+.footer {
+ margin: 0px 0px 20px 20px ;
+ text-align:left;
+}
+
+.footer h5{
+  font-size: 20px;
+}
